@@ -9,7 +9,7 @@ import rootSaga from "./root-saga";
 
 const sagaMiddleware = createSagaMiddleware();
 
-const middlewares = [sagaMiddleware];
+const middlewares = [sagaMiddleware]; // we can add mutiple middleware that's array
 
 export const store = createStore(
   rootReducer,

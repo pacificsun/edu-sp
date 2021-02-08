@@ -1,0 +1,3 @@
+for redux in react it requires store and provider.
+provider is from react-redux.
+have to create store. 
